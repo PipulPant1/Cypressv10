@@ -1,6 +1,6 @@
 #LambdaTest Certification
 Folder Structure
- ##Cypress
+##Cypress
   1. e2e
   2. fixtures
   3. plugins
