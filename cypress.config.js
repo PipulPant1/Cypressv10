@@ -6,6 +6,8 @@ module.exports = defineConfig({
   // the e2e or component configuration
   e2e: {
     baseUrl: 'https://www.lambdatest.com',
+    screenshotOnRunFailure:true,
+    videoCompression: false,
     setupNodeEvents(on, config) {
       on('task', {
         log(message) {
